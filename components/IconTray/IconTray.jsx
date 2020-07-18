@@ -25,23 +25,23 @@ const useStyles = createUseStyles(({ shadow, border, spacing }) => ({
 
 const icons = [
   {
-    href: "www.google.ca",
+    href: "",
     icon: "apple",
   },
   {
-    href: "www.google.ca",
+    href: "",
     icon: "spotify",
   },
   {
-    href: "www.google.ca",
+    href: "https://www.instagram.com/nosonofmine/",
     icon: "instagram",
   },
   {
-    href: "www.google.ca",
+    href: "https://www.facebook.com/nosonofmine",
     icon: "facebook",
   },
   {
-    href: "www.google.ca",
+    href: "",
     icon: "youtube",
   },
 ];
