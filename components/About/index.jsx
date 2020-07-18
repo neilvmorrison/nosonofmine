@@ -1,0 +1,29 @@
+import React from "react";
+import { createUseStyles } from "react-jss";
+
+import Text from "../Text";
+
+const useStyles = createUseStyles(({ spacing }) => ({
+  root: {
+    height: "100vh",
+    maxWidth: 768,
+    margin: "0 auto",
+    marginTop: spacing[7],
+  },
+}));
+
+function About() {
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <Text component="h2" variant="h3">
+        NO SON OF MINE
+      </Text>
+      <Text>
+        No son of mine is an alternative rock band from Toronto, Ontario.
+      </Text>
+    </div>
+  );
+}
+
+export default About;
