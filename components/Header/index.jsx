@@ -7,16 +7,22 @@ const useStyles = createUseStyles(({ spacing }) => ({
     height: "100vh",
     display: "flex",
     alignItems: "center",
-    justifyContent: "space-between",
+    flexDirection: "column",
     padding: spacing[4],
     background: "rgb(3, 13, 12)",
-    // backgroundSize: "cover",
+    "@media (min-width: 1096px)": {
+      flexDirection: "row",
+      justifyContent: "space-between",
+    },
   },
   image: {
-    background: 'url("/fish.jpg")',
+    background: 'url("/fish.jpg") center',
     backgroundSize: "cover",
-    width: "50%",
+    width: "100%",
     height: "100vh",
+    "@media (min-width: 1096px)": {
+      width: "50%",
+    },
   },
 }));
 

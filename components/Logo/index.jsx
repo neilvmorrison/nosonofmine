@@ -4,7 +4,11 @@ import { createUseStyles } from "react-jss";
 const useStyles = createUseStyles((theme) => ({
   logo: {
     ...theme.text.logo,
+    fontSize: 32,
     margin: 0,
+    "@media (min-width: 768px)": {
+      fontSize: theme.text.logo.fontSize,
+    },
   },
   accent: {
     fontWeight: 700,
