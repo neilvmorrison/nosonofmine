@@ -20,7 +20,10 @@ function About() {
         NO SON OF MINE
       </Text>
       <Text>
-        No son of mine is an alternative rock band from Toronto, Ontario.
+        No son of mine is an alternative rock band from Toronto, Ontario. The
+        outfit was formed sometime in late 2017, bringing together ex-Ruiners'
+        Club rhythm section with Urgent vocal melodies weave in between brash,
+        overdriven riffs
       </Text>
     </div>
   );

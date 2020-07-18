@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <div className="container">
       <Header />
-      <NavBar />
+      {/* <NavBar /> */}
       <IconTray />
-      <About />
+      {/* <About /> */}
       <style global jsx>{`
         html,
         body {
