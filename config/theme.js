@@ -1,7 +1,9 @@
 export default {
   colors: {
-    brandPrimary: "#FFC107",
-    brandSecondary: "#FF4081",
+    black: "rgb(5, 12, 13)",
+    brandPrimary: "rgb(229, 93, 88)",
+    brandSecondary: "rgb(94, 154, 152)",
+    brandTertiary: "rgb(255, 233, 140)",
     transparentBlack: "rgba(0, 0, 0, 0.52)",
   },
   text: {

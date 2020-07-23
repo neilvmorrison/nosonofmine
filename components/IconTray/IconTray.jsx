@@ -51,7 +51,12 @@ function IconTray() {
   return (
     <div className={classes.root}>
       {icons.map((icon) => (
-        <a href={icon.href} className={classes.link} target="_blank">
+        <a
+          href={icon.href}
+          key={icon.href}
+          className={classes.link}
+          target="_blank"
+        >
           <FontAwesomeIcon icon={["fab", icon.icon]} size="lg" />
         </a>
       ))}

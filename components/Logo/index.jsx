@@ -13,7 +13,7 @@ const useStyles = createUseStyles((theme) => ({
   accent: {
     fontWeight: 700,
     lineHeight: 0.2,
-    color: theme.colors.brandSecondary,
+    color: theme.colors.brandPrimary,
   },
   albumText: {
     color: "#fff",
