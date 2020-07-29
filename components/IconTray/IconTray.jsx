@@ -8,7 +8,7 @@ const useStyles = createUseStyles(({ shadow, border, spacing }) => ({
     bottom: 10,
     right: 8,
     display: "grid",
-    gridTemplateColumns: "repeat(5, 1fr)",
+    gridTemplateColumns: "repeat(2, 1fr)",
     gridGap: spacing[2],
     background: "#212121",
     padding: spacing[2],
@@ -24,14 +24,14 @@ const useStyles = createUseStyles(({ shadow, border, spacing }) => ({
 }));
 
 const icons = [
-  {
-    href: "",
-    icon: "apple",
-  },
-  {
-    href: "",
-    icon: "spotify",
-  },
+  // {
+  //   href: "",
+  //   icon: "apple",
+  // },
+  // {
+  //   href: "",
+  //   icon: "spotify",
+  // },
   {
     href: "https://www.instagram.com/nosonofmine/",
     icon: "instagram",
@@ -40,10 +40,10 @@ const icons = [
     href: "https://www.facebook.com/nosonofmine",
     icon: "facebook",
   },
-  {
-    href: "",
-    icon: "youtube",
-  },
+  // {
+  //   href: "",
+  //   icon: "youtube",
+  // },
 ];
 
 function IconTray() {
